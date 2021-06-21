@@ -1,0 +1,28 @@
+.nav {
+  grid-area: n;
+  background-color: #39E639;
+  /* display: flex; */
+  flex-flow: column-reverse;
+  padding-left: 15px;
+  padding-top: 15px;
+  height : 100%;
+  font-size : 23px;
+}
+
+.item {
+  color : #333333;
+}
+
+.item a.activeLink {
+  color : rgb(255, 102, 0);
+}
+
+.item a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.item a:hover{
+  text-decoration: none;
+  color: grey;
+}

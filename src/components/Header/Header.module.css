@@ -1,0 +1,79 @@
+.header {
+    grid-area: h;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+
+
+.header img {
+    width : 70px;
+}
+
+.loginBlock {
+    grid-area: 0 / 0 / 1 / 3; 
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.loginBlock a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.loginBlock a.activeLink {
+    color : rgb(255, 102, 0);
+}
+
+.loginBlock a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .loginBlock button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border-radius: 30px;
+    width: 100px;
+    height: 35px;
+}  */
+
+/* .loginBlock button:hover {
+    background: rgb(53, 167, 110);
+}
+
+.loginBlock button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+} */
+
+.loginBlock button {
+    font-size: 14px;
+    border-radius: 20px;
+    width: 100px;
+    border: 2px solid #00bbff;
+    background-color: white;
+    padding: 5px 8px;
+}
+
+.nameProject {
+    color: #00bbff;
+    font-size: 28px;
+    font-weight: 700;
+}

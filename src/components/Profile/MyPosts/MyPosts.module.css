@@ -1,0 +1,45 @@
+.item {
+  color : rgb(255, 94, 0);
+}
+
+.item img {
+  width : 50px;
+}
+
+.title {
+  font-size: 25px;
+  padding-top: 250px;
+}
+
+.post textarea {
+  outline: none;
+  resize: none;
+  height: 60px;
+  width: 700px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+.post {
+  padding-top: 15px;
+}
+
+.but button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  width: 100px;
+}
+
+.but button:hover {
+  background: rgb(53, 167, 110);
+}
+
+.but button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
